@@ -1,0 +1,33 @@
+{
+  "name": "@tripclear/google-ads-mcp",
+  "version": "0.1.0",
+  "description": "Google 広告（Google Ads API）の MCP サーバー。実績の取得・検索広告 / P-MAX の入稿・キーワードプランナーを npx で起動できる。",
+  "type": "module",
+  "bin": {
+    "google-ads-mcp": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "google-ads"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trip-clear/google-ad-mcp.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0"
+  }
+}
